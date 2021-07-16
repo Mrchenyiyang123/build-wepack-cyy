@@ -3,9 +3,9 @@ language: node.js
 sudo: false
 
 cache:
-  apt:true
+  apt: true
   directories:
-    -node_modules
+    - node_modules
 
 node_js: stable
 
