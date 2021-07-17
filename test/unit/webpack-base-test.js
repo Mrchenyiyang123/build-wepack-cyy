@@ -3,6 +3,7 @@ const { indexOf } = require('lodash');
 
 
 describe('webpack.base.js test case',() =>{
+  // eslint-disable-next-line global-require
   const baseConfig = require('../../lib/webpack.base.js')
 
 
